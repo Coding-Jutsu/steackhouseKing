@@ -1,0 +1,75 @@
+body {
+    background-color: transparent;
+    background-image: url(images/steak1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Water Brush', cursive;
+    font-family: 'Koulen', cursive;
+}
+
+@font-face {
+    font-family: 'Water Brush', cursive;
+    src: url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
+}
+
+@font-face {
+    font-family: 'Koulen', cursive;
+    src: url('https://fonts.googleapis.com/css2?family=Koulen&family=Water+Brush&display=swap');
+}
+
+.title {
+    padding-top: 450px;
+    background-color: black;
+}
+
+.label {
+    color: #ff4d00;
+    padding: 8px 20px;
+    font-weight: 500;
+    font-size: 60;
+    font-family: 'Water Brush', cursive;
+    text-align: center;
+    padding-right: 300px;
+    padding-left: 300px;
+    border-radius: 10px;
+}
+
+.column {
+    float: left;
+    width: 20%;
+    padding: 100px;
+    font-family: 'Water Brush', cursive;
+    font-size: 30;
+}
+
+.map {
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+li {
+    float: left;
+    font-size: 40;
+    font-family: 'Koulen', cursive;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 175px;
+    padding-bottom: 200px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #ff4d00;
+    border-radius: 5px;
+}
